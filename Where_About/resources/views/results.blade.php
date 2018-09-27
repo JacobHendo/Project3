@@ -44,14 +44,15 @@
                     <p>{{$value->Cost_of_Living}} is the cost of living (h=high, m=medium, l=low)</p>
                     <p>Typical weather is {{$value->Weather}}</p>
                 </div>
-</div>
+
             @endforeach
         @else
             <p> No Post Found</p>
         @endif
+    </div>
   @endsection
-
+<hr>
     @section('signout')
-    
-<a href="/logout"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
+    <hr>
+<a href="/logout" id="logout-link"><i class="fa fa-sign-out fa-fw" id="logout-btn"></i>Logout</a>
 @stop
