@@ -44,14 +44,15 @@
                     <p>Median Income ${{$value->Median_Income}}</p>
 
                 </div>
-</div>
+
             @endforeach
         @else
             <p> No Post Found</p>
         @endif
+    </div>
   @endsection
-
+<hr>
     @section('signout')
-    
-<a href="/logout"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
+    <hr>
+<a href="/logout" id="logout-link"><i class="fa fa-sign-out fa-fw" id="logout-btn"></i>Logout</a>
 @stop

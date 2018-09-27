@@ -75,6 +75,7 @@ nav h3{
     left: 50%;
     transform: translate(-50%, -10%);
     float: left;
+    clear: both;
 }
 .card p {
     padding-left: 15px;
@@ -84,4 +85,10 @@ nav h3{
 }
 label {
     padding-right: 15px;
+}
+#logout-btn{
+    clear: both;
+}
+#logout-link{
+    clear: both;
 }
